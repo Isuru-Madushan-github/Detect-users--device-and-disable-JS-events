@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+p{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+body.forJSEvents p .disable{
+    display: none;
+}
+p .active{
+    display: none;
+}
+body.forJSEvents p .active{
+    display: inline;
+}
